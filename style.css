@@ -1,5 +1,6 @@
 body{
     background-color: #E5E5E5;
+    /* overflow: hidden; */
 }
 header{
     background-color: #562EFF;
@@ -114,17 +115,17 @@ hr{
     margin-left: 70px;
     color: blue;
 }
-.courses{
+.blogs{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
-.courses img{
+.blogs img{
     width: 70%;
     height: 50%;
     border-radius: 10px;
     margin-left: 80px;
 }
-.course-info{
+.blog-info{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -139,4 +140,55 @@ hr{
 }
 .description p{
     color: blue;
+}
+.latest-course{
+    width: 800px;
+    height: 1079px;
+    margin-top: 50px;
+    margin-left: 285px;
+    margin-right: 285px;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 70px;
+}
+.latest-course img{
+    width: 80%;
+}
+#course{
+    margin-left: 70px;
+    color: blue;
+}
+.special-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+}
+.special-info img{
+    width: 10%;
+}
+.rating{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rating p{
+    margin-left: 10px;
+}
+.duration{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.duration img{
+    width: 20%;
+}
+.duration p{
+    margin-left: 10px;
 }
